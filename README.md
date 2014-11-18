@@ -1,4 +1,4 @@
-# generator-taunus [![Build Status](https://secure.travis-ci.org/bevacqua/generator-taunus.png?branch=master)](https://travis-ci.org/bevacqua/generator-taunus)
+# generator-taunus [![Build Status](https://secure.travis-ci.org/taunus/generator-taunus.png?branch=master)](https://travis-ci.org/taunus/generator-taunus)
 
 > [Yeoman](http://yeoman.io) generator
 

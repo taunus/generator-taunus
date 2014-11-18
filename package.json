@@ -4,7 +4,7 @@
   "description": "Yeoman generator for Taunus applications",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "https://github.com/bevacqua/generator-taunus.git",
+  "repository": "https://github.com/taunus/generator-taunus.git",
   "author": {
     "name": "Nicolas Bevacqua",
     "email": "hub@bevacqua.io",
