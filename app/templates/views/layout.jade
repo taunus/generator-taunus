@@ -1,0 +1,12 @@
+//- the view layout is useful to set metadata, a title, load scripts and styles
+//- and also global markup such as a navigation menu or layout structure
+//- http://taunus.bevacqua.io/getting-started#creating-a-layout
+
+//- every controller action should produce a view title
+title=model.title
+
+//- the HTML for the partial view can be placed where needed
+main!=partial
+
+//- of course, client-side javascript needs to be referenced
+script(src='/js/all.js')
