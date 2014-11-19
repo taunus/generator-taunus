@@ -9,10 +9,6 @@ var yosay = require('yosay');
 
 var TaunusGenerator = yeoman.generators.Base.extend({
   initializing: function () {
-    this.pkg = require('../package.json');
-  },
-
-  prompting: function () {
     this.log(yosay('That is the fanciest Taunus generator!'));
   },
 
@@ -32,11 +28,14 @@ var TaunusGenerator = yeoman.generators.Base.extend({
     }
   },
 
-  installDependencies: function () {
-    this.npmInstall();
+  install: function () {
+    var should = this.options['skip-install'] !== true;
+    if (should) {;
+      this.npmInstall();
+    }
   },
 
-  almostComplete: function () {
+  end: function () {
     this.log(yosay('Start the application using `npm start`!'));
   }
 });
