@@ -1,6 +1,6 @@
 {
   "name": "generator-taunus",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Yeoman generator for Taunus applications",
   "license": "MIT",
   "main": "app/index.js",
@@ -23,11 +23,11 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "glob": "^4.1.4",
-    "taunus": "^4.1.0",
-    "taunus-express": "^2.1.0",
-    "yeoman-generator": "^0.17.0",
-    "yosay": "^1.0.0"
+    "glob": "^5.0.5",
+    "taunus": "^5.4.4",
+    "taunus-express": "^3.0.0",
+    "yeoman-generator": "^0.19.1",
+    "yosay": "^1.0.3"
   },
   "devDependencies": {
     "mocha": "*"
