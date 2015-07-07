@@ -23,11 +23,11 @@
     "yeoman-generator"
   ],
   "dependencies": {
-    "glob": "^5.0.13",
-    "taunus": "^7.1.0",
-    "taunus-express": "^3.0.0",
-    "yeoman-generator": "^0.20.1",
-    "yosay": "^1.0.4"
+    "glob": "5.0.13",
+    "taunus": "7.1.0",
+    "taunus-express": "3.0.0",
+    "yeoman-generator": "0.20.1",
+    "yosay": "1.0.4"
   },
   "devDependencies": {
     "mocha": "*"
