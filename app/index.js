@@ -1,7 +1,6 @@
 'use strict';
 
 var fs = require('fs');
-var util = require('util');
 var path = require('path');
 var glob = require('glob');
 var yeoman = require('yeoman-generator');
@@ -23,14 +22,14 @@ var TaunusGenerator = yeoman.generators.Base.extend({
           return;
         }
         var relative = path.relative(root, file);
-        this.src.copy(relative, relative);
+        this.copy(relative, relative);
       }
     }
   },
 
   install: function () {
     var should = this.options['skip-install'] !== true;
-    if (should) {;
+    if (should) {
       this.npmInstall();
     }
   },
